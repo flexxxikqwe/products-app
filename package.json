@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "echo 'Static site - no dev server'",
-    "build": "echo 'No build step needed for static site'",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "export": "next build && next export"
